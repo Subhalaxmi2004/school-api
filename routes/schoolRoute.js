@@ -3,6 +3,6 @@ const router = express.Router();
 const { getSchool , createSchool } = require('../controllers/studentController');  
 
 // Routes
-router.get('/get', getSchool);
-router.post('/create', createSchool);
+router.get('/listSchool', getSchool);
+router.post('/addSchool', createSchool);
 module.exports = router;
